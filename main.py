@@ -3,13 +3,13 @@
 import json, unittest, datetime
 
 # read json files
-with open("./data-1.json","r") as f:
+with open("./data-1.json","r", encoding="utf-8") as f:
     jsonData1 = json.load(f)
 
-with open("./data-2.json","r") as f:
+with open("./data-2.json","r", encoding="utf-8") as f:
     jsonData2 = json.load(f)
 
-with open("./data-result.json","r") as f:
+with open("./data-result.json","r", encoding="utf-8") as f:
     jsonExpectedResult = json.load(f)
 
 
